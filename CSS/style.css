@@ -1,0 +1,75 @@
+body {
+  font-family: Times;
+  text-align: center;
+  background-color: rgba(255,230,200, 0.5);
+  color: #434C55;
+}
+
+.pg-border {
+  border: 2px solid;
+  border-color: rgba(239,129,94, 1);
+  margin: 20px;
+}
+
+.inner-border {
+  border: 1px solid;
+  border-color: inherit;
+  margin: 5px -10px 5px -10px;
+}
+
+.title {
+  font-family: "Helvetica Neue";
+  font-size: 5em;
+  margin-top: 75px;
+}
+
+#insult-text {
+  text-shadow: 2.5px 1.5px 2px #777;
+  color: rgba(239,129,94, 1);
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.intro-text {
+  padding: 15px;
+  font-size: 1.35em;
+}
+
+.quote {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.well > blockquote {
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+blockquote > footer {
+  color: rgba(239,129,94, 1);
+}
+
+.random-btn {
+  margin-top: 25px;
+  color: #FFFFFF;
+  background-color: #434C55;
+}
+
+.random-btn:hover {
+  background-color: rgba(239,129,94, 1);
+  color: #434C55;
+}
+
+/*Twitter colors per their Brand Assets usage page*/
+.tweet {
+  color: #FFFFFF;
+  background-color: #66757f;
+}
+
+.tweet:hover {
+  color: #55acee;
+  background-color: #FFFFFF;
+}
